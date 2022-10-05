@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--meta name="viewport" content="with=device-width, initial-scale=1.0"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> CLIMATE ACTION NOW!!!</title>
+    <link rel="stylesheet" href= "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href= "lib/bootstrap/bootstrap.min.css">
+    <script src="lib/bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="CAN.html"><img src="Images/1.jpg"></a>
+            <div class="nav-links-custom" id="navLinks">
+                <button class="btn-light p-2" id="hide-button" onclick="hideMenu()"><i class="fa fa-times"></i></button>
+                <ul>
+                    <li><a href="CAN.html">Home</a></li>
+                    <li><a href="Details.html">Details</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href= "Contact.html">Contact Us Today</a></li>
+                </ul>
+            </div>
+            <button class="btn-light p-2" id="show-button" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+        </nav>
+           <h1> Contact Us Today</h1>
+    </section>
+
+<!--------- About us content------>
+    <section class="Contact Us">
+        <div class="row-custom">
+            <div class="Contact-col">
+                <!--<h1>We are a Youth Organization working towards ZERO CARBON EMISSION</h1>---->
+                <p> “Adults keep saying we owe it to the young people, to give them hope, but I don’t want your hope. <br>
+                    I don’t want you to be hopeful. I want you to panic. I want you to feel the fear I feel every day.<br>
+                    I want you to act. I want you to act as you would in a crisis.<br>
+                    I want you to act as if the house is on fire, because it is.”<br>
+                      <b><i> Greta Thunberg </i></b></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-5 pl-5">
+            <div class="">
+                <i class="fa fa-phone text-danger" aria-hidden="true"></i>
+                <span>
+                    <span class="text-danger">
+                        <b>+86754646632</b>
+                    </span>
+                     <br>
+                     Call us to join our weekly lectures
+                </span>
+            </div>
+            <br>
+            <br>
+            <div class="">
+                <i class="fa fa-envelope text-danger" aria-hidden="true"></i>
+                <span>
+                    <span class="text-danger">
+                        <b>Eyebee.pearlstone1@gmail.com</b>
+                    </span>
+                    <br>
+                    Email us your query
+                </span>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-8">
+            <div class="comment-form">
+                <div class="comment-box">
+                    <h3>Leave a comment </h3>
+            
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="Submit" class="button1 button2"> Post Comment</button>
+                    </form>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+<section class="comment-form">
+    <div class="comment-box">
+        <h3>Leave a comment </h3>
+
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="Submit" class="button1 button2"> Post Comment</button>
+        </form>
+
+    </div>
+    </section>
+
+
+
+
+
+
+    <!---------Footer---->
+
+<section class="Footer">
+    <h4> About Us</h4>
+    <p> We are a youth organization which works towards achieving
+    Zero climate change. We highly believe the importance of protecting <br>
+    this planet for future generations as well as creating an eco-friendly
+    zero waste planet for all the living beings and securing the lives <br>
+    of animals and plants.</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    <p> Made with <i class="fas fa-heart"></i> By 娜娜</p>
+</section>
+
+
+
+    <!-------Javascript for Toggle Menu----------->
+    <script>
+        function showMenu() {
+            document.getElementById("navLinks").style.visibility = "visible";
+            document.getElementById("hide-button").style.visibility = "visible";
+            document.getElementById("show-button").style.visibility = "hidden";
+            document.getElementById("navLinks").style.right = "0";
+        }
+        function hideMenu() {
+            document.getElementById("navLinks").style.visibility = "hidden";
+            document.getElementById("hide-button").style.visibility = "hidden";
+            document.getElementById("show-button").style.visibility = "visible";
+            document.getElementById("navLinks").style.right = "-200px";
+        }
+    </script>
+</section>
+</body>
+</html>

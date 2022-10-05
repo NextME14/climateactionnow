@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--meta name="viewport" content="with=device-width, initial-scale=1.0"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> CLIMATE ACTION NOW!!!</title>
+    <link rel="stylesheet" href= "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href= "lib/bootstrap/bootstrap.min.css">
+    <script src="lib/bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="CAN.html"><img src="Images/1.jpg"></a>
+            <div class="nav-links-custom" id="navLinks">
+                <button class="btn-light p-2" id="hide-button" onclick="hideMenu()"><i class="fa fa-times"></i></button>
+                <ul>
+                    <li><a href="CAN.html">Home</a></li>
+                    <li><a href="Details.html">Details</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href= "Contact.html">Contact Us Today</a></li>
+                </ul>
+            </div>
+            <button class="btn-light p-2" id="show-button" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+        </nav>
+            <div class="text-box">
+                <h1> What is Climate Change ?</h1>
+                <p> Climate change describes a change in the average conditions — such as<br> temperature and
+                    rainfall — in a region over a long period of time. <br>NASA scientists have observed Earth’s
+                    surface is warming, and many of the warmest years on record <br> have happened in the past
+                    20 years.</p>
+                <a href="Contact.html" class="button1">Visit Us to know more</a>
+
+            </div>
+    </section>
+
+    <!------What do we know about climate change ------>
+    <section class="Facts">
+        <h1> What do we know about Climate Change?</h1>
+        <p> <b> Earth's climate has changed throughout history. Just in the last 650,000 years there have
+            been seven cycles of glacial advance and retreat,<br> with the abrupt end of the last ice age
+            about 11,700 years ago marking the beginning of the modern climate era — and of human
+            civilization.<br> Most of these climate changes are attributed to very small variations in
+            Earth’s orbit that change the amount of solar energy our planet receives.</b></p> <br><br>
+
+        <div class="row-custom">
+          <div class="Facts-col">
+              <h3> Global Temperature Rise</h3>
+              <p>The planet's average surface temperature has risen about 2.12 degrees Fahrenheit
+                  (1.18 degrees Celsius) since the late 19th century,<br> a change driven largely by
+                  increased carbon dioxide emissions into the atmosphere and other human activities.<br>
+                  4 Most of the warming occurred in the past 40 years, with the seven most recent years
+                  being the warmest.<br> The years 2016 and 2020 are tied for the warmest year on record. </p>
+              <a href="https://earthobservatory.nasa.gov/world-of-change/global-temperatures" target="_blank">MORE...</a> <br><br>
+          </div>
+          <div class="Facts-col">
+              <h3> Sea Level Rise </h3>
+              <p> Global sea level rose about 8 inches (20 centimeters) in the last century.<br> The
+                  rate in the last two decades, however, is nearly double that of the last
+                  century and accelerating slightly every year. </p>
+              <a href="https://climate.nasa.gov/vital-signs/sea-level/" target="_blank">MORE...</a> <br><br>
+          </div>
+
+          <div class="Facts-col">
+              <h3> Shrinking Ice Sheets </h3>
+              <p> The Greenland and Antarctic ice sheets have decreased in mass. <br> Data from NASA's
+                  Gravity Recovery and Climate Experiment show Greenland lost an average of 279 billion<br>
+                  tons of ice per year between 1993 and 2019, while Antarctica lost about 148 billion
+                  tons of ice per year. </p>
+              <a href="https://climate.nasa.gov/news/2328/warming-seas-and-melting-ice-sheets" target="_blank">MORE...</a> <br><br>
+          </div>
+        </div>
+    </section>
+    <!-------Join our Movement------->
+
+    <section class="JoinUs">
+        <h1> Join or Support our Movement Today</h1>
+        <a href="Contact.html" class="button1">Reach Us </a>
+    </section>
+
+    <!---------Footer---->
+
+<section class="Footer">
+    <h4> About Us</h4>
+    <p> We are a youth organization which works towards achieving
+    Zero climate change. We highly believe the importance of protecting <br>
+    this planet for future generations as well as creating an eco-friendly
+    zero waste planet for all the living beings and securing the lives <br>
+    of animals and plants.</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    <p> Made with <i class="fas fa-heart"></i> By 娜娜</p>
+</section>
+
+
+
+    <!-------Javascript for Toggle Menu----------->
+    <script>
+        function showMenu() {
+            document.getElementById("navLinks").style.visibility = "visible";
+            document.getElementById("hide-button").style.visibility = "visible";
+            document.getElementById("show-button").style.visibility = "hidden";
+            document.getElementById("navLinks").style.right = "0";
+        }
+        function hideMenu() {
+            document.getElementById("navLinks").style.visibility = "hidden";
+            document.getElementById("hide-button").style.visibility = "hidden";
+            document.getElementById("show-button").style.visibility = "visible";
+            document.getElementById("navLinks").style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

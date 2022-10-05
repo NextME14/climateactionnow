@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--meta name="viewport" content="with=device-width, initial-scale=1.0"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> CLIMATE ACTION NOW!!!</title>
+    <link rel="stylesheet" href= "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,400;1,700&display=swap" rel="stylesheet">
+<!----link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href= "lib/bootstrap/bootstrap.min.css">
+<script src="lib/bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="CAN.html"><img src="Images/1.jpg"></a>
+            <div class="nav-links-custom" id="navLinks">
+                <button class="btn-light p-2" id="hide-button" onclick="hideMenu()"><i class="fa fa-times"></i></button>
+                <ul>
+                    <li><a href="CAN.html">Home</a></li>
+                    <li><a href="Details.html">Details</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href= "Contact.html">Contact Us Today</a></li>
+                </ul>
+            </div>
+            <button class="btn-light p-2" id="show-button" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+        </nav>
+           <h1> About Us</h1>
+    </section>
+
+<!--------- About us content------>
+    <section class="About-Us">
+        <div class="row-custom">
+            <div class="about-col">
+                <h1>We are a Youth Organization working towards ZERO CARBON EMISSION</h1>
+                <p> A number of countries, including the UK, have made commitments to
+                    move to a net zero emissions economy. This is in response to
+                    climate science showing that in order to halt climate change,
+                    carbon emissions have to stop – reducing them is not sufficient.
+                    ‘Net zero’ means that any emissions are balanced by absorbing an
+                    equivalent amount from the atmosphere. In order to meet the
+                    1.5°C global warming target in the Paris Agreement, global carbon
+                    emissions should reach net zero around mid-century. For developed
+                    nations such as the UK, the date may need to be earlier.
+                    Many have already set such dates.</p>
+                    <a href="Contact.html" class="button1 button2"> EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+            <img src="Images/8.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!---------Footer---->
+
+<section class="Footer">
+    <h4> About Us</h4>
+    <p> We are a youth organization which works towards achieving
+    Zero climate change. We highly believe the importance of protecting <br>
+    this planet for future generations as well as creating an eco-friendly
+    zero waste planet for all the living beings and securing the lives <br>
+    of animals and plants.</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    <p> Made with <i class="fas fa-heart"></i> By 娜娜</p>
+</section>
+
+
+
+    <!-------Javascript for Toggle Menu----------->
+    <script>
+        function showMenu() {
+            document.getElementById("navLinks").style.visibility = "visible";
+            document.getElementById("hide-button").style.visibility = "visible";
+            document.getElementById("show-button").style.visibility = "hidden";
+            document.getElementById("navLinks").style.right = "0";
+        }
+        function hideMenu() {
+            document.getElementById("navLinks").style.visibility = "hidden";
+            document.getElementById("hide-button").style.visibility = "hidden";
+            document.getElementById("show-button").style.visibility = "visible";
+            document.getElementById("navLinks").style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
